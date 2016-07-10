@@ -53,3 +53,12 @@ These are embedded Ruby tags
 <%=  %>
 In Ruby on Rails a link will look like this
 <%= link_to "here", "#" %>
+
+#Creating Navigation Links
+
+Make it a little bit easier for users to move around your site with navigation links. In Rails, layouts make it really easy to create something (like a navigation bar) and have it show up on every page in your app.
+
+Browse Source Code
+
+##Add Navigation Links
+apps/views/layouts/application.html.erb
