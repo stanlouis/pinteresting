@@ -34,3 +34,22 @@ app/views/pages/about.html.erb
 config/routes.rb
 
 get "about" => "pages#about"
+
+#What is Embedded Ruby?
+
+Embedded Ruby (erb) is like magic! You'll be able to add dynamic content to your HTML pages.
+
+Browse Source Code
+
+##1. Change your HTML link to an embedded Ruby link
+app/views/pages/home.html.erb
+
+<%= link_to "here", "#" %>
+##2. Review of this lesson
+In HTML, a link looks like this
+
+<a href="#">here</a>
+These are embedded Ruby tags
+<%=  %>
+In Ruby on Rails a link will look like this
+<%= link_to "here", "#" %>
